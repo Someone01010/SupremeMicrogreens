@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Script';
+  src: url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  font-family: 'another_shabby';
+  src: url('./assets/fonts/another_shabby.ttf') format('truetype');
+  
+}
+
+
+.font-shabby {
+  font-family: 'another_shabby';
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.font-montserrat-bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1200;
+  letter-spacing: 6px;
+}
+
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

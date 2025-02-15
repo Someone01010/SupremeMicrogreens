@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
           <div className="flex justify-center md:justify-start">
             <img 
-              src="images/logo.png" 
+              src="/images/logo.png" 
               alt="Supreme Microgreens Logo" 
               className="w-32 sm:w-48 md:w-72 lg:w-96 h-auto object-contain"
             />

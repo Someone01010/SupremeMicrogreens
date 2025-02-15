@@ -32,7 +32,7 @@ const About = () => {
           {/* Left side - Logo */}
           <div>
             <div className="w-90 h-90 relative">
-              <img src="/src/assets/images/shopping.png" alt="Supreme Microgreens Logo" className="w-full h-full object-contain" />
+              <img src="images/shopping.png" alt="Supreme Microgreens Logo" className="w-full h-full object-contain" />
             </div>
           </div>
 

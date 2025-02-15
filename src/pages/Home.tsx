@@ -50,7 +50,7 @@ const Home = () => {
             }}
           >
             <img 
-              src="/src/assets/images/logogreen.png"
+              src="images/logogreen.png"
               alt="Supreme Microgreens Circle Logo"
               className="w-full h-full object-contain"
               data-aos="fade-left"
@@ -129,7 +129,7 @@ const Home = () => {
       <section className="relative py-24 bg-[#2B432B] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/images/leaves.jpeg" 
+            src="images/leaves.jpeg" 
             alt="Leafy Background"
             className="w-full h-full object-cover opacity-10"
           />

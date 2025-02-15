@@ -39,7 +39,7 @@ const Navbar = () => {
               data-aos-duration="1000"
             >
               <img 
-                src="/src/assets/images/logotext.png" 
+                src="images/logotext.png" 
                 alt="Supreme Microgreens Logo" 
                 className={`h-24 sm:h-32 md:h-48 lg:h-64 w-auto transform transition-all duration-300 group-hover:scale-105 ${
                   scrolled ? 'scale-75' : 'scale-100'
